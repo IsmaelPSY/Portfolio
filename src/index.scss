@@ -1,10 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=IBM+Plex+Sans+Devanagari:wght@300&display=swap');
+:root {
+  --circle-radius-color:#f1ee2ea6;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: 'Fira Code', monospace;
+  background: rgb(1, 8, 14) none repeat scroll 0% 0%;
+}
+
+h1,h2,h3{
+  margin-block-start: 0.1em;
+  margin-block-end: 0.1em;
+}
+h1{
+  font-size: 4.5em;
+}
+h2{
+  font-size: 2.5em;
 }
 
 code {
