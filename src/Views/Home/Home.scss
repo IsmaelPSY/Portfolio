@@ -122,12 +122,12 @@
     opacity: 1;
     position: absolute;
     
-    &.one{
+    &.one.home{
       background: rgb(67, 217, 173);
       bottom: -400px;
       left: -300px;
     }
-    &.two{
+    &.two.home{
       background: rgb(77, 91, 206);
       top: -400px;
       right: -300px;

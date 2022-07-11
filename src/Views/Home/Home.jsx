@@ -1,13 +1,20 @@
 import './Home.scss'
 import { motion, useMotionValue, useTransform } from 'framer-motion'
 import { Link } from 'react-router-dom';
+import { useRef } from 'react';
 
 const Home = (props) => {
+  const constraintsRef = useRef(null)
 
-  const{constraintsRef} = props;
 
   return(
-    <>
+    <motion.div className='app-wrapper'
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration:1, delay: 0.2}}
+        exit={{ opacity: 0 }}
+        ref={constraintsRef}
+        >
       <motion.div 
         initial="hidden"
         animate="visible"
@@ -27,8 +34,8 @@ const Home = (props) => {
             sobre mi y mi trabajo. DISFRUTALO!!!</p>
         <span>HEY! Muéveme! :D</span>
       </motion.div>
-      <span className='back-circle one'/>
-      <span className='back-circle two'/>
+      <span className='back-circle one home'/>
+      <span className='back-circle two home'/>
       <motion.div 
       initial="hidden"
         animate="visible"
@@ -84,13 +91,13 @@ const Home = (props) => {
         }}
       className='nav-sect'>
       <div className='link-cont'>
-      <Link className='nav-link' to="">MiTrabajo</Link>
+      <Link className='nav-link' to="/my-work">MiTrabajo</Link>
       </div>
       <div className='link-cont'>
-      <Link className='nav-link' to="">SobreMi</Link>
+      <Link className='nav-link' to="/about-me">SobreMi</Link>
       </div>
       </motion.nav>
-    </>
+    </motion.div>
   )
 }
 

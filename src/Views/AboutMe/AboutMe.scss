@@ -1,0 +1,89 @@
+.button-back{
+  position: absolute;
+  top: 1em;
+  left: 1.5em;
+  z-index: 1;
+  font-size: larger;
+  filter: blur(2px);
+  color: rgb(233, 146, 135);
+  &:hover{
+  filter: blur(0px);
+  }
+}
+.back-circle{
+  &.one.about{
+    background: #4c4066;
+    top: -400px;
+    left: -300px;
+  }
+  &.two.about{
+    background: #44463e;
+    bottom: -400px;
+    right: -300px;
+  }
+} 
+
+
+.item-sect{
+  background: #011627;
+  border: 1px solid rgb(30, 45, 61);
+  border-radius: 8px;
+  padding: 1em;      
+  filter: blur(0px);
+  opacity: .8;
+  position: absolute;
+  &.one{
+    top: 20%;
+    left: 20%;
+  }
+  &.two{
+    top: 30%;
+    right: 20%;
+  }
+  &.three{
+    bottom: 20%;
+    right: 40%;
+  }
+}
+h3{
+  border: 1px solid rgb(30, 45, 61);
+  border-radius: 8px;
+}
+.selected-item{
+  width: 80vw;
+  height: 80vh;
+  background-color: #011627;
+  opacity: 0.9;
+  margin: auto;
+  border: 1px solid rgb(30, 45, 61);
+  border-radius: 8px;
+  padding: 1em;
+  p{
+    border: 1px solid rgb(30, 45, 61);
+    border-radius: 8px;
+  }
+  .image-cont{
+    display: flex;
+    img{
+      margin: auto;
+      height: 290px;
+      border: 1px solid rgb(30, 45, 61);
+      border-radius: 8px;
+    }
+  }
+  .item-button{
+    cursor: pointer;
+    border: 1px solid rgb(30, 45, 61);
+    border-radius: 8px;
+    background-color: #011627;
+    color: #fff;
+    filter: blur(.9px);
+    &:hover{
+      filter: blur(0);
+    }
+  }
+}
+
+.app-wrapper{
+  color: #fff;
+}
