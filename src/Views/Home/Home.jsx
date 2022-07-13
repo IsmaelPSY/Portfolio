@@ -91,7 +91,7 @@ const Home = (props) => {
         }}
       className='nav-sect'>
       <div className='link-cont'>
-      <Link className='nav-link' to="/my-work">MiTrabajo</Link>
+      <Link className='nav-link' to="">MiTrabajo</Link>
       </div>
       <div className='link-cont'>
       <Link className='nav-link' to="/about-me">SobreMi</Link>

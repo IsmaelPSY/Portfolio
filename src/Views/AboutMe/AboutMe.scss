@@ -44,6 +44,9 @@
     bottom: 20%;
     right: 40%;
   }
+  &:hover{
+    cursor: pointer;
+  }
 }
 h3{
   border: 1px solid rgb(30, 45, 61);

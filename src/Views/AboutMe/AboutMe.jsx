@@ -54,16 +54,34 @@ const AboutMe = (props) => {
         return(
           <>
             <p>
-              Bueno aún no. Pronto.
-              <br/>
-              <br/>
+              Bueno aún no. Pronto.</p>
+              <h3>Universidad Nacional Amazónica de Madre
+              de Dios (UNAMAD)</h3>
+              <p>
               En el 2018 logré ingresar a la carrera de
               Ingeniería de Sistemas e Informática en primer lugar.
               Y sin estudiar (demasido). Realmente fue gracias 
               a Dios. Ahora, 5 años despues, estoy a pocos meses
               de graduarme.
-              <br/>
-              <br/>
+            </p>
+            <h3>Instituto Cultural Peruano-Norteamericano (ICPNA)(Inglés)</h3>
+            <p>
+              En el 2016 ingrese a este reconocido instituto gracias
+              a una beca estatal. Despues de 1,5 años estudiando continuamente
+              todas las noches la beca concluyó, pero gracias al esfuerzo 
+              de mis padres pude continuar hasta terminar a mediados 
+              del 2019. Sali con un alto nivel de inglés tanto de manera
+              escrita como oral. Lamentablemente por falta de oportunidades
+              no pude practicarlo en un ambiente real. Hoy en día 
+              practico constantemente para recuperar al 100% mi inglés.
+            </p>
+            <h3>Academia de Ciencias de la Computación e Informática (ACADEMLO)</h3>
+            <p>
+              A principios del 2022 empecé mi total dedicación a la
+              programación de la mano de Academlo para convertirme en un
+              desarrollador web. Fueron muchos meses
+              de dedicación y arduo estudio constante. Mi familia fue
+              mi principal inspiración para no rendirme.
             </p>
           </>
         )
